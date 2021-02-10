@@ -142,3 +142,5 @@ class TransformerModel(nn.Transformer):
         output = self.encoder(src, mask=self.src_mask)
         output = self.decoder(output)
         return F.log_softmax(output, dim=-1)
+
+# updated 2021-02-10T03:16:32
