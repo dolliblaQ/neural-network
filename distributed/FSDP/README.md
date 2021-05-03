@@ -26,3 +26,5 @@ Start the training with Torchrun (adjust nproc_per_node to your GPU count):
 torchrun --nnodes 1 --nproc_per_node 4  T5_training.py
 
 ```
+
+# updated 2021-05-03T22:52:46
