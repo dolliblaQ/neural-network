@@ -47,3 +47,5 @@ python3 main.py --inference --model_path <path-to-model>
 ```
 
 After some loading time, this will open an interactive interface where you can type in whatever sentence you are interested in translating.
+
+# updated 2021-08-14T17:50:07
