@@ -369,3 +369,4 @@ if __name__ == '__main__':
             break
     loss_test, acc_test = test(gat_net, criterion, (features, adj_mat), labels, idx_test)
     print(f'Test set results: loss {loss_test:.4f} accuracy {acc_test:.4f}')
+# updated 2023-01-05T12:01:09
