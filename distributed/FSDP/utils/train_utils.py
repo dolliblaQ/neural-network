@@ -100,3 +100,5 @@ def setup_model(model_name):
         model = T5ForConditionalGeneration.from_pretrained(model_name)
         tokenizer =  T5Tokenizer.from_pretrained(model_name, legacy=False)
         return model, tokenizer
+
+# updated 2023-10-31T12:52:09
