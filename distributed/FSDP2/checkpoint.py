@@ -207,3 +207,5 @@ class Checkpointer:
             os.makedirs(new_checkpoint_folder, exist_ok=True)
             torch.save(model_state_dict, new_model_checkpoint)
             torch.save(optim_state_dict, new_optim_checkpoint)
+
+# updated 2024-05-14T01:11:14
